@@ -1,4 +1,4 @@
-package org.example; // Make sure the package name matches your directory structure
+package org.example;
 
 import java.util.ArrayList; // Importing ArrayList to store TvShow objects
 import java.util.Scanner; // Importing Scanner to read user input

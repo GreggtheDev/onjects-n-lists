@@ -29,3 +29,8 @@ class Animal {
         return "Animal{name='" + getName() + "', isDog=" + isDog() + "}";
     }
 }
+
+public class MainAnimal {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); // Creating a Scanner object to read user input
+        ArrayList<Animal> animals = new ArrayList<>(); // Creating an ArrayList to store Animal objects

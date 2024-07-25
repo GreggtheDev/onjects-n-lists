@@ -22,3 +22,10 @@ class Animal {
     public boolean isDog() {
         return isDog;
     }
+
+    // Overriding toString() method to return a string representation of the Animal object
+    @Override
+    public String toString() {
+        return "Animal{name='" + getName() + "', isDog=" + isDog() + "}";
+    }
+}

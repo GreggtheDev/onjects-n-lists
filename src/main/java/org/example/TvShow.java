@@ -14,3 +14,18 @@ class TvShow {
         this.numberOfEpisodes = numberOfEpisodes;
         this.genre = genre;
     }
+
+    // Getter method to retrieve the name of the TV show
+    public String getShowName() {
+        return showName;
+    }
+
+    // Getter method to retrieve the number of episodes
+    public int getNumberOfEpisodes() {
+        return numberOfEpisodes;
+    }
+
+    // Getter method to retrieve the genre of the TV show
+    public String getGenre() {
+        return genre;
+    }

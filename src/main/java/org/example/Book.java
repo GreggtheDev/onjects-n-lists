@@ -1,4 +1,4 @@
-package org.example; // Make sure the package name matches your directory structure
+package org.example; 
 
 public class Book {
     private String title; // Attribute to store the title of the book

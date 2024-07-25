@@ -17,3 +17,8 @@ class Animal {
     public String getName() {
         return name;
     }
+
+    // Getter method to check if the animal is a dog
+    public boolean isDog() {
+        return isDog;
+    }

@@ -14,3 +14,18 @@ class Book {
         this.numberOfPages = numberOfPages;
         this.publicationYear = publicationYear;
     }
+
+    // Getter method to retrieve the title of the book
+    public String getTitle() {
+        return title;
+    }
+
+    // Getter method to retrieve the number of pages
+    public int getNumberOfPages() {
+        return numberOfPages;
+    }
+
+    // Getter method to retrieve the publication year
+    public int getPublicationYear() {
+        return publicationYear;
+    }

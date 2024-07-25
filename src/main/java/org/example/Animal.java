@@ -12,3 +12,8 @@ class Animal {
         this.name = name;
         this.isDog = isDog;
     }
+
+    // Getter method to retrieve the name of the animal
+    public String getName() {
+        return name;
+    }
